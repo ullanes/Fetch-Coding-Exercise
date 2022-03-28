@@ -10,11 +10,12 @@
 - [X] Used RecyclerView to  display the manipulated list
 
 ## Results
-<img src='Fetch1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='Fetchbig.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Instructions
--
-
+1) Clone Repository
+2) Open project in Android Studios
+3) 
 
 
 ## Unit Test
