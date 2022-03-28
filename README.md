@@ -16,19 +16,26 @@ An Android app the made in kotlin that retrieves data from a url.
 
 ## Instructions
 1) Clone Repository
+
    ![alt clone](resources/copy.png)
+
 2) Open project in Android Studios
+
    ![alt open](resources/open.png)
 
 3) Run app on a Pixel 3a API 30 device
+
    ![alt run](resources/run.png)
 
 4) Wait for Emulator Run
+
 5) Scroll up and down with mouse to view clean and sorted list
+
    ![alt running](resources/running.png)
 
 
 6) To run all unit tests change configuration from app to MainActivityTest
+
    ![alt test](resources/test.png)
 
 
