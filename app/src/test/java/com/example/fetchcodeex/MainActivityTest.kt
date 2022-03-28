@@ -20,6 +20,11 @@ class MainActivityTest {
     var jsonObj5 = JSONObject()
     var dataArray = ArrayList <FetchEx>()
 
+    /*
+    Creates a jsonArray , jsonobjects
+    and ArrayList for testing uses
+     */
+
     @Before
     fun setUp() {
         jsonObj1.put("id", 75)
@@ -50,6 +55,11 @@ class MainActivityTest {
         println()
     }
 
+    /*
+    Checks if the function removes black and null names
+    by passing jsonArray
+     */
+
     @Test
     fun removeBlankAndNoNames() {
         var expected = JSONArray().put(jsonObj1).put(jsonObj3).put(jsonObj5)
@@ -60,6 +70,11 @@ class MainActivityTest {
         assertEquals(expected.toString(), result)
     }
 
+    /*
+    Checks if ArrayList<FetchEx> is  equal
+    to the function that takes JsonArray
+     returns ArrayList<Fetch>
+    */
     @Test
     fun addJsonInDataClass() {
         var test = JSONArray().put(jsonObj1).put(jsonObj3).put(jsonObj5)
@@ -69,6 +84,13 @@ class MainActivityTest {
 
     }
 
+
+    /*
+    Checks if a sorted test ArrayList
+    will be equivalent to unsorted ArrayList
+    passed into a method function that sorts the arrayList
+
+     */
     @Test
     fun sortDataClass() {
         var sortedData = ArrayList<FetchEx>()
@@ -81,5 +103,6 @@ class MainActivityTest {
         println("$sortedData =  $dataArray")
 
         assertEquals(sortedData.toString(), result)
+
     }
 }
