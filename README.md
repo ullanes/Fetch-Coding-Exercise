@@ -43,11 +43,19 @@ An Android app the made in kotlin that retrieves data from a url.
 
 - Remove All Null Name and  blank names
 
+![alt RemoveTest](resources/removeData.png)
+
 
 - Add all cleaned json objects into an ArrayList of fetchEx data class
 
+![alt addTest](resources/addData.png)
+
+
 
 - Sort the Arraylist by listId then by Name
+
+![alt sortTest](resources/sortData.png)
+
 
 ## License
 Copyright [2022] [Ulysis Llanes]
