@@ -15,7 +15,11 @@
 ## Instructions
 1) Clone Repository
 2) Open project in Android Studios
-3) 
+3) Run app on a Pixel 3a API 30 device
 
 
 ## Unit Test
+
+- Remove All Null Name and  blank names
+- Add all cleaned json objects it into an ArrayList of fetchEx data class
+- Sort the Arraylist by listId then by Name
